@@ -1,3 +1,7 @@
+# Installing Dependencies
+
+Folder structure has been made to to start local server you need to run the command "npm install" on your cmd terminal just once the very first time(required to download the dependencies just once) and then run the command "npm start" to start the live server
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
