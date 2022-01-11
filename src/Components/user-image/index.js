@@ -1,9 +1,10 @@
 import React from 'react'
+import { AccountCircleRounded } from "@material-ui/icons";
 
 export default function UserImage() {
     return (
         <div className="cursor-pointer">
-            <img src="https://source.unsplash.com/random" alt="" className="w-10 h-10 rounded-full"/>
+            <AccountCircleRounded className="w-7 h-7 rounded-full bg-white"/>
         </div>
     )
 }

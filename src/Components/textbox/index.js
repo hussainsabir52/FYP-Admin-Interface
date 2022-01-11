@@ -6,7 +6,7 @@ export default function Textbox(props) {
       <label className="text-lg font-bold">{props.name}: </label>
       <input
         className="w-64 h-7 border-none rounded pl-2"
-        type="text"
+        type={props.type}
         id={props.id}
         placeholder={props.name}
       ></input>

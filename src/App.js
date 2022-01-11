@@ -6,6 +6,8 @@ import Users from "./Views/users";
 import RegisteredDrivers from "./Views/registered-drivers";
 import PendingRegistration from "./Views/pending-registration";
 import Main from "./Views/main";
+import UserInfo from "./Views/userInfo";
+import Locations from "./Views/locations";
 
 function App() {
   return (
@@ -31,6 +33,12 @@ function App() {
             </Route>
             <Route path="/main" exact>
               <Main />
+            </Route>
+            <Route path="/user-info">
+              <UserInfo/>
+            </Route>
+            <Route path="/locations">
+              <Locations/>
             </Route>
           </Switch>
         </div>
